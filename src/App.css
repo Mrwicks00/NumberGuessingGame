@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: rgb(54, 23, 23);
+  color: white;
+  font-family: sans-serif;
+  
+}
+
+.Guessbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.Guessbutton {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  padding: 7px;
+  border-radius: 10px;
+  width: 50%;
+  background-color: rgb(121, 167, 121);
+
+  color: white;
+}
+
+.Guessbutton:hover{
+  background-color: rgb(36, 126, 36);
+ 
+}
+
+.restartbutton {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  padding: 7px;
+  border-radius: 10px;
+  width: 50%;
+  background-color: rgb(242, 121, 196);
+
+  color: white;
+
+
+}
+.restartbutton:hover{
+  background-color: rgb(159, 28, 109);
+
+  
+}
+
+input {
+  padding: 7px;
+  margin: auto;
+  width: 90%;
+  color: black;
+  
+}
+
+.bigbox {
+  margin-top: 50px;
+}
